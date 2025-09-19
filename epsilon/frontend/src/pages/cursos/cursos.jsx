@@ -3,7 +3,7 @@ import { useState } from 'react'
 import './App.scss'
 
 
-function App() {
+function Curs() {
   const [count, setCount] = useState(0)
 
   return (
@@ -41,6 +41,7 @@ function App() {
   )
 }
 
-export default App
+export default Curs;
+
 
 
