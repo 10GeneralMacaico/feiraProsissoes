@@ -26,10 +26,10 @@ function App() {
           <input className='pesquisa' type="search" placeholder='Pesquisar'/>
           <div className='divimg'>
             <img src="../../public/galera-do-frei.jpg" height="250px" width="300px"/>
-            <p> , essa bosta não pega imagem de forma alguma <br/>mano preciso que essa merda funcione<br/>já ta ficando insano véi<br/>ssssssssssssssssssssssssssssssssssssssssssssssssssss <br/>ssssssssssssssssssssssssssssssssssssssssssssssssssss <br/>sssssssssssssssssssssss <br/></p>
+            <p> Fazer um curso é uma ótima forma de adquirir novos conhecimentos e habilidades que abrem <br/>> portas no mercado de trabalho. Além de enriquecer o currículo, também aumenta a confiança pessoal e profissional. <br/>Cursos permitem acompanhar as mudanças e exigências do mundo atual, mantendo-se atualizado.<br/> Eles ainda podem gerar novas oportunidades de carreira e crescimento pessoal. </p>
           </div>
           <div className='divimg2'>
-          <p> Venha conhcer esse hambiente que a tantos anos forma os melhores profissionais do mercado<br/> conheça alguns dos nossos melhores cursos como:Inglês do Teens ao avançado,Informática,Administração,Eletrônica e Mecânica</p>
+          <p> Venha conhcer esse hambiente que a tantos anos forma os melhores profissionais do mercado<br/> conheça alguns dos nossos melhores cursos como:Inglês do Teens ao avançado,Informática,Administração,Eletrônica, Mecânica e etc. <br/> Aqui nós moldamos futuros profissionais dando oportunidades para o crescimento e desenvolvimento pessoal </p>
             <img src= "../../public/jump-frei-jump.jpeg" height="250px" width="300px"/>
           </div>
         </section>
@@ -41,3 +41,4 @@ function App() {
 }
 
 export default App
+
