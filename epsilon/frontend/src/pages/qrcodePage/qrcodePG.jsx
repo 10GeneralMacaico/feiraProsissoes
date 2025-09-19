@@ -35,6 +35,7 @@ function QR() {
                 <Link to={'/for'}>Formulário</Link>
                 <Link to={'#'}>Feira Profissões</Link>
                 <Link to={'#'}>Site Oficial</Link>
+                <Link to={'/cursos'}>Cursos</Link>
                 <Link to={'/login'}>Login</Link>
                 <Link to={'/QR'}>Vincular <br />QRcode</Link>
             </nav>
@@ -60,5 +61,6 @@ function QR() {
     </div>
     </>
   );
+
 
 export default QR;
