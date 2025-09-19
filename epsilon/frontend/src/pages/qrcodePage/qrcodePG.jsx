@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useState } from "react";
 import './qrcodePg.scss'
 import axios from "axios";
@@ -64,3 +65,4 @@ function QR() {
 
 
 export default QR;
+
