@@ -24,7 +24,6 @@ function Curs() {
       </div>
         </header>
         <section className='principal'>
-          <input className='pesquisa' type="search" placeholder='Pesquisar'/>
           <div className='divimg'>
             <img src="../../public/galera-do-frei.jpg" height="250px" width="300px"/>
             <p> Fazer um curso é uma ótima forma de adquirir novos conhecimentos e habilidades que abrem <br/>> portas no mercado de trabalho. Além de enriquecer o currículo, também aumenta a confiança pessoal e profissional. <br/>Cursos permitem acompanhar as mudanças e exigências do mundo atual, mantendo-se atualizado.<br/> Eles ainda podem gerar novas oportunidades de carreira e crescimento pessoal. </p>
@@ -42,6 +41,7 @@ function Curs() {
 }
 
 export default Curs;
+
 
 
 
