@@ -8,29 +8,6 @@
      justify-content: start;
      align-items: center;
    }
-   .principal{
-     width: 100%;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     margin: 1%; 
-   
-     .pesquisa{
-       height: 4vh;
-       width: 50%;
-       background-color: #FFFFFF;
-       color: #FFFFFF;
-     }
-     input{
-       background-color: black;
-       border-radius: 15px;
-       margin-bottom: 10px;
-       color: #FFFFFF;
-       width: 150px;
-       margin-top: 10px;
-       padding-left: 7px;
-     }
      .divimg, .divimg2{
        display: flex;
        border-radius: 15px;
@@ -70,4 +47,5 @@
            font-size: 14px;
          }
        }
+
      }
