@@ -19,6 +19,7 @@ function For() {
             <Link to={'/'}>Voltar</Link>
             <Link to={'#'}>Feira Profissões</Link>
             <Link to={'#'}>Site Oficial</Link>
+            <Link to={'/cursos'}>Cursos</Link>
             <Link to={'/login'}>Login</Link>
             <Link to={'/QR'}>Vincular <br />QRcode</Link>
         </nav>
@@ -53,5 +54,6 @@ function For() {
     </>
   )
 }
+
 
 export default For
