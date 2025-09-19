@@ -14,9 +14,10 @@ function App() {
         <img src="" alt="" />
         <nav>
           <Link to={'/for'}>Formulário</Link>
-          <Link to={'#'}>Feira Profissões</Link>
-          <Link to={'#'}>Site Oficial</Link>
           <Link to={'/'}>Voltar</Link>
+          <Link to={'#'}>Site Oficial</Link>
+          <Link to={'/login'}>Login</Link>
+          <Link to={'/cadastro'}>Cadastro</Link>
           <Link to={'/QR'}>Vincular <br />QRcode</Link>
         </nav>
       </div>
@@ -25,10 +26,10 @@ function App() {
           <input className='pesquisa' type="search" placeholder='Pesquisar'/>
           <div className='divimg'>
             <img src="../../public/galera-do-frei.jpg" height="250px" width="300px"/>
-            <p> Baseado nessa imagem completamente insana eu quero explodir, essa bosta não pega imagem de forma alguma <br/>mano preciso que essa merda funcione<br/>já ta ficando insano véi<br/>ssssssssssssssssssssssssssssssssssssssssssssssssssss <br/>ssssssssssssssssssssssssssssssssssssssssssssssssssss <br/>sssssssssssssssssssssss <br/></p>
+            <p> , essa bosta não pega imagem de forma alguma <br/>mano preciso que essa merda funcione<br/>já ta ficando insano véi<br/>ssssssssssssssssssssssssssssssssssssssssssssssssssss <br/>ssssssssssssssssssssssssssssssssssssssssssssssssssss <br/>sssssssssssssssssssssss <br/></p>
           </div>
           <div className='divimg2'>
-          <p> Venha conhcer esse hambiente que a tatons anos forma os melhores profissionais do mercado<br/> conheça algusn do nossos melhores cursos como:Inglês do Teens ao avançado,Informática,Administração,Eletônica e Mecânica <br/></p>
+          <p> Venha conhcer esse hambiente que a tantos anos forma os melhores profissionais do mercado<br/> conheça alguns dos nossos melhores cursos como:Inglês do Teens ao avançado,Informática,Administração,Eletrônica e Mecânica</p>
             <img src= "../../public/jump-frei-jump.jpeg" height="250px" width="300px"/>
           </div>
         </section>
@@ -38,4 +39,5 @@ function App() {
     
   )
 }
+
 export default App
