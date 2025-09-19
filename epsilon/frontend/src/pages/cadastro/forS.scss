@@ -1,0 +1,85 @@
+@mixin Atalhos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin AtalhoCOR{
+    background-color: #1d3f91;
+    color: #ffffff;
+    text-align: center;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, #ffbc5e, #ffffff 60vh);
+    min-height: 110vh;
+    display: flex;
+    flex-direction: column;
+}
+.barra-superior-fors {
+    @include AtalhoCOR();
+    @include Atalhos();
+    height: 80px;
+    border-bottom: 5px solid orange;
+    border-top: 4px solid orange;
+    
+    nav {
+        background-color: orange;
+        padding: 3px;
+        display: flex;
+        gap: 2px;
+          a {
+            background-color: white;
+            padding: 5px 10px;
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+          }
+          .cabecalho-principal h1 {
+              margin: 0;
+          }
+    }
+}
+.for{
+    @include AtalhoCOR();
+    @include Atalhos();
+    border-radius:15px 15px 0px 0px;
+    height: 70px;
+    margin: 100px 25.6% 0px 25.6%;
+}
+.container-formulario-fors {
+    background-color: #D9D9D9;
+    @include Atalhos();
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 20px 20px 20px;
+    border-radius: 0px 0px 15px 15px;
+    width: 45.6%;
+    height: 40vh;
+    max-width: 65%;
+
+    input{
+        color: black;
+        text-align: left;
+        width: 92.5%;
+        margin: 20px;
+        padding: 12px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    input:focus {
+        outline: none;
+        border-color: #0066ff;
+    }
+    .botao-enviar-fors {
+        @include AtalhoCOR();
+        width: 20vh;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        &:hover {
+        background: #163577;
+      }
+    }
+}

@@ -1,0 +1,91 @@
+@mixin AtalhoDJA{
+  justify-content: center;
+  align-items: center;
+}
+@mixin AtalhoTamanho{
+  background-color: #1d3f91;
+  width: 81%;
+  height: 300px;
+  padding: 15px;
+  border-radius: 15px;
+}
+@mixin AtalhoFB{
+  background-color: #1d3f91;
+  display: flex;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, #ffbc5e, #ffffff 60vh);
+    background: linear-gradient(to bottom, #ffffff, #ffbc5e 60vh);
+    min-height: 110vh;
+    display: flex;
+    flex-direction: column;
+}
+.barra-superior-app {
+  @include AtalhoFB();
+  height: 80px;
+  @include AtalhoDJA();
+  border-bottom: 5px solid orange;
+  border-top: 4px solid orange;
+  
+  nav {
+    background-color: orange;
+    padding: 3px;
+    display: flex;
+    gap: 2px;
+      a {
+        background-color: white;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+      }
+  }
+}
+.principal {
+  @include AtalhoFB();
+  margin: auto;
+  margin-top: 30px;
+  @include AtalhoTamanho();
+  justify-content: space-between;
+  .imagem {
+    background-color: white;
+    flex: 1;
+    @include AtalhoDJA();
+    border-radius: 10px 0px 0px 10px;
+  }
+  .descricao {
+    background-color: #8aadff;
+    flex: 1;
+    @include AtalhoDJA();
+    border-radius: 0px 10px 10px 0px;
+    color: black;
+    padding: 1px 15px;
+  }
+}
+.cursos {
+  background-color: #1d3f91;
+  @include AtalhoTamanho();
+  margin: 20px auto;
+  color: white;
+    div{
+      background-color: aliceblue;
+      @include AtalhoDJA();
+    }
+}
+.infos {
+  width: 83.5%;
+  margin: 20px auto;
+  display: flex;
+  gap: 20px;
+  div {
+    @include AtalhoFB();
+    border-radius: 15px;
+    color: white;
+    height: 300px;
+    @include AtalhoDJA();
+    flex: 1;
+  }
+}
